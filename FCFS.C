@@ -4,12 +4,12 @@
    Date of Creation: 6-9-2022
    Date of Execution: 6-9-2022*/
 #include<stdio.h>
-#include<conio.h>
+#include<stdlib.h>
  void main()
 {
 int bt[20], wt[20], tat[20], i, n;
 float wtavg, tatavg;
-//clrscr();
+system("cls")
 printf("\nEnter the number of processes -- ");
 scanf("%d", &n);
 for(i=0;i<n;i++)
